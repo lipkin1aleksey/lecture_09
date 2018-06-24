@@ -1,0 +1,15 @@
+.brand {
+    &__title {
+        font-size: 26px;
+        text-transform: uppercase;
+        display: inline-block;
+        margin-bottom: 5px;
+        span {
+            font-size: 32px;
+        }
+    }
+    &__subtitle {
+        letter-spacing: -0.2px;
+    }
+}
+  

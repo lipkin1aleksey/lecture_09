@@ -1,0 +1,20 @@
+.projects-info {
+    padding-top: 48px;
+    &__title {
+        margin-bottom: 18px;
+    }
+    &__text {
+        @include Georgia(light);
+        font-size: 14px;
+        line-height: 1.4;
+    }
+    &__card {
+        margin-bottom: 50px;
+    }
+    .card__text {
+        line-height: 1.4;
+        margin-bottom: 11px;
+    }
+}
+
+  

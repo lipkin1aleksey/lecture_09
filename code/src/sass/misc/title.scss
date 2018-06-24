@@ -1,0 +1,18 @@
+.title {
+    &--huge {
+        font-size: 36px;
+    }
+    &--big {
+        font-size: 32px;
+    }
+    &--medium {
+        font-size: 18px;
+    }
+    &--normal {
+        font-size: 16px;
+    }
+    &--orange {
+        color: $title-color;
+    }
+}
+

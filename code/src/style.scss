@@ -1,0 +1,42 @@
+//misc
+@import "./sass/misc/reset";
+@import "./sass/misc/fonts";
+@import "./sass/misc/colors";
+@import "./sass/misc/button";
+@import "./sass/misc/title";
+@import "./sass/misc/request-form";
+@import "./sass/misc/default";
+
+//libraries
+@import "./sass/misc/custom";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/utilities";
+@import "~bootstrap/scss/transitions";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/navbar";
+@import "~bootstrap/scss/nav";
+
+//components
+
+@import "./sass/header/brand";
+@import "./sass/header/search";
+@import "./sass/header/header";
+@import "./sass/main-nav/main-nav";
+
+//content
+
+@import "./sass/content/main-content/main-content";
+@import "./sass/content/newsletter/card";
+@import "./sass/content/newsletter/newsletter";
+@import "./sass/content/projects-info/projects-info";
+@import "./sass/content/site-info/links-block";
+@import "./sass/content/site-info/contacts-block";
+@import "./sass/content/site-info/blog-news";
+@import "./sass/content/site-info/social";
+@import "./sass/content/site-info/subscribe-block";
+@import "./sass/content/site-info/site-info";
+
+//footer
+@import "./sass/footer/footer";

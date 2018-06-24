@@ -1,0 +1,14 @@
+.blog-news {
+    &__title {
+        @include Georgia(regular);
+        color: $orange;
+        margin-bottom: 5px;
+    }
+    &__author {
+        margin-bottom: 6px;
+    }
+    &__content {
+        line-height: 1.5;
+        font-size: 14px;
+    }
+}

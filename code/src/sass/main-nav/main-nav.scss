@@ -1,0 +1,55 @@
+.main-nav {
+    &__list {
+        display: flex;
+        padding-left: 1px;
+        width: 100%;
+    }
+    &__item {
+        background: $orange;
+        border-right: 1px solid #fff;
+        transition: all .2s;
+        &:first-child {
+            border-top-left-radius: 8px;
+            border-bottom-left-radius: 8px;
+        }
+        &:last-child {
+            border-top-right-radius: 8px;
+            border-bottom-right-radius: 8px;
+            border-right: none;
+            flex-grow: 1;
+        }
+        &:hover {
+            background: darken($color: $orange, $amount: 20);
+            opacity: 0.9;
+        }
+    }
+    &__link {
+        @include Georgia(light);
+        display: block;
+        text-transform: uppercase;
+        font-size: 16px;
+        color: #fff;
+        padding: 24px 18px;
+        padding-right: 20px;
+        padding-bottom: 26px;
+    }
+}
+@media (max-width: 976px) {
+    .main-nav {
+        margin-bottom: 20px;
+        &__list {
+            margin-top: 20px;
+        }
+        &__item {
+            max-width: 150px;
+            border-right: none;
+            &:first-child {
+                border-radius: 0;
+            }
+            &:last-child {
+                border-radius: 0;
+                flex-grow: 0;
+            }
+        }
+    }
+}

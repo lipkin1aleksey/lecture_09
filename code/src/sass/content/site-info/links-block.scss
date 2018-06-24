@@ -1,0 +1,16 @@
+.links-block {
+    &__item {
+        margin-bottom: 7px;
+    }
+    &__link {
+        font-size: 14px;
+        color: $orange;
+        transition: all .2s;
+        &:before {
+            content: "»";
+        }
+        &:hover {
+            color: darken($color: $orange, $amount: 20);
+        }
+    }
+}

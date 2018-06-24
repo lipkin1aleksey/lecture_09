@@ -1,0 +1,30 @@
+.social {
+    &__list {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    &__item {
+        margin-right: 10px;
+    }
+    &__link {
+        background: url("images/icons/icon-sprite.png") no-repeat;
+        width: 32px;
+        height: 32px;   
+        display: block;     
+        &--google {
+            background-position: -0px -0px;
+        }
+        &--linkedin {
+            background-position: -32px -0px;
+        }
+        &--smth {
+            background-position: -0px -32px;
+        }
+        &--spotify {
+            background-position: -32px -32px;
+        }
+        &--twitter {
+            background-position: -0px -64px;
+        }
+    }
+}

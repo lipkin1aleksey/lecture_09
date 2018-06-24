@@ -1,0 +1,29 @@
+.card {
+    &__title {
+        letter-spacing: 0.1px;
+        margin-bottom: 8px;
+    }
+    &__text {
+        @include Georgia(light);
+        line-height: 1.5;
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+    &__button {
+        padding-right: 4px;
+    }
+    &__photo-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 225px;
+        border: 1px solid $main-font;
+        margin-bottom: 9px;
+        padding: 5px;
+        padding-bottom: 3px;
+    }
+    &__photo {
+        height: 130px;
+    }
+}
+  

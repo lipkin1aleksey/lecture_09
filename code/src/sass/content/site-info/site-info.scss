@@ -1,0 +1,11 @@
+.site-info {
+    padding-top: 30px;
+    @include Georgia(light);
+    &__column {
+        margin-bottom: 26px;
+    }
+    &__title {
+        letter-spacing: -0.2px;
+        margin-bottom: 20px;
+    }
+}  

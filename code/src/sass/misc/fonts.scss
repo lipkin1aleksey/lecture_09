@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Georgia';
+    src: url('fonts/Georgia.woff2') format('woff2'),
+         url('fonts/Georgia.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Georgia Light';
+    src: url('fonts/Georgia Light.woff2') format('woff2'),
+         url('fonts/Georgia Light.woff') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@mixin Georgia($style) {
+	@if $style == regular {
+		font-family: "Georgia", sans-serif;
+    }
+    @if $style == light {
+		font-family: "Georgia Light", sans-serif;
+	}
+}
+
+  

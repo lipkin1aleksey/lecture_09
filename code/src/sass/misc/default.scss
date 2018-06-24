@@ -1,0 +1,38 @@
+html, body {
+    @include Georgia(regular);
+    min-height: 100%;
+    width: 100%;
+    margin: 0;
+    font-size: 13px;
+    color: $main-font;
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    outline: none;
+}
+//turn off outline
+:focus {
+    outline:none;
+}
+::-moz-focus-inner {
+    border:0;
+}
+a {
+    color: $main-font;
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+    }
+}
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+}
+.splitter {
+    background-color: rgb(210, 199, 189);
+    margin: 0 auto;
+    height: 1px;
+    width: 100%;
+}
